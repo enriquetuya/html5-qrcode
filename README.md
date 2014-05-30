@@ -10,10 +10,10 @@ This is a cross platform jQuery library to create a QRcode reader for HTML5 comp
 The decoder used for the QRcode reading is from LazarSoft
 [https://github.com/LazarSoft/jsqrcode](https://github.com/LazarSoft/jsqrcode)
 
+
 ###Demo
 ----------------------
 See a demo here [http://dwa012.github.io/html5-qrcode/](http://dwa012.github.io/html5-qrcode/)
-
 
 
 ###Usage
@@ -22,10 +22,8 @@ Include ```html5_qrcode.min.js``` in the ```lib``` directory.
 
 Create a basic ```<div>``` with a given width and height. 
 
-Presently width and height attributes must be set. 
- 
 ```
- <div id="reader" style="width:300px;height:250px">
+ <div id="reader">
  </div>
 ```
 
